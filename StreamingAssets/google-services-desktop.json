@@ -1,0 +1,36 @@
+{
+  "project_info": {
+    "project_number": "578008754848",
+    "project_id": "carrera-politica",
+    "storage_bucket": "carrera-politica.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:578008754848:ios:c3c4bd1c475017029eb7c5",
+        "android_client_info": {
+          "package_name": "com.casta-tutors.carrera-politica"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "578008754848-bvf1fgbuk5ne6s6ip5phknm9mj60pfdb.apps.googleusercontent.com"
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARJXTKLvzCvyjPigeKa78yoUXwvutTlac"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 0
+        },
+        "appinvite_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
