@@ -7,27 +7,45 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:578008754848:ios:c3c4bd1c475017029eb7c5",
+        "mobilesdk_app_id": "1:578008754848:android:1db476620e0665059eb7c5",
         "android_client_info": {
-          "package_name": "com.casta-tutors.carrera-politica"
+          "package_name": "com.CastaTutors.CarreraPolitica"
         }
       },
       "oauth_client": [
         {
-          "client_id": "578008754848-bvf1fgbuk5ne6s6ip5phknm9mj60pfdb.apps.googleusercontent.com"
+          "client_id": "578008754848-77luhl1a56t88u838fk1a7okb8ckiaer.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.CastaTutors.CarreraPolitica",
+            "certificate_hash": "ef66fecd4e5c0a49733d6e040cb4b425c31bddad"
+          }
+        },
+        {
+          "client_id": "578008754848-q8fh3or4alsd52hulvhi12lm0b82cihd.apps.googleusercontent.com",
+          "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyARJXTKLvzCvyjPigeKa78yoUXwvutTlac"
+          "current_key": "AIzaSyAl4kaNFHMY3Os0RoRug31t2j6TqdCXr0M"
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 0
-        },
         "appinvite_service": {
-          "status": 1
+          "other_platform_oauth_client": [
+            {
+              "client_id": "578008754848-q8fh3or4alsd52hulvhi12lm0b82cihd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "578008754848-0o5ta21isbimdi561r9t3pb58dhb2pvi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.castatutors.carrerapolitica"
+              }
+            }
+          ]
         }
       }
     }
