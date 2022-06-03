@@ -103,5 +103,28 @@
       };
       document.body.appendChild(script);
     </script>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.2/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.8.2/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyDkrlDQRMZxi3bCwNvT1ZcDCAxB15yxeGg",
+        authDomain: "carrera-politica.firebaseapp.com",
+        projectId: "carrera-politica",
+        storageBucket: "carrera-politica.appspot.com",
+        messagingSenderId: "578008754848",
+        appId: "1:578008754848:web:2f86272b4737017f9eb7c5",
+        measurementId: "G-Y9RE2TN4GT"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
   </body>
 </html>
